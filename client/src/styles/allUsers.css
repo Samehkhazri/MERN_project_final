@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.table-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.table-user {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th {
+    background-color: #b5c6d1;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #0a0606;
+    padding: 12px;
+    text-align: left;
+    border-radius: 8px;
+    gap: 5px;
+}
+
+td {
+    border: 1px solid #0a0606;
+    padding: 12px;
+    text-align: left;
+    border-radius: 8px;
+    height: 30px;
+}
+
+.table-user tr:nth-child(even) {
+    background-color: #9c9c9c31;
+}
+
+.delet-user {
+    padding: 12px 20px;
+    /* margin-right: 100px; */
+    cursor: pointer;
+    background-color: #dd3c10;
+    color: white;
+    border: 1px solid #dd3c10;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    width: 100px;
+ 
+    
+}
+
+.delete-user:hover {
+    background-color: #ff5733;
+}
+.sam{
+    width: 90px;
+}
